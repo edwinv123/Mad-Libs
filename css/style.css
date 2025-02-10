@@ -1,9 +1,90 @@
-body{
+/* body{
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
 
 h1{
     text-align: center;
+}
+
+p {
+    font-size: 30px;
+}  */
+/* Add a vibrant and playful look to the page */
+/* Add a vibrant and playful look to the page */
+/* Add a vibrant and playful look to the page */
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #FF4081;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    color: #333;
+    padding: 30px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background: transparent;
+    border-radius: 15px;
+}
+
+p:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+    transform: scale(1.02);
+}
+
+
+.input-word {
+    background-color: transparent;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-bottom: 2px solid #FF4081;
+    text-align: center;
+    color: #333;
+    padding: 5px 10px;
+    margin: 5px;
+    width: 150px;
+    transition: all 0.3s ease;
+}
+
+.input-word:focus {
+    outline: none;
+    border-bottom: 2px solid #FF4081;
+    box-shadow: 0 0 5px rgba(255, 64, 129, 0.5);
+}
+
+button {
+    background-color: #FF4081;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 50px;
+    padding: 15px 35px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #e91e63;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Add a soft animation to elements */
+.animate__animated {
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
 }
