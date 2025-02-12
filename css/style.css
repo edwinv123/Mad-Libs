@@ -27,11 +27,11 @@ body {
 
 h1 {
     font-size: 4rem;
-    color: #FF4081;
+    color: #7363ff;
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-p {
+/* p {
     font-size: 1.5rem;
     line-height: 1.8;
     color: #333;
@@ -40,20 +40,20 @@ p {
     transition: all 0.3s ease;
     background: transparent;
     border-radius: 15px;
-}
+} */
 
-p:hover {
+/* p:hover {
     background-color: rgba(255, 255, 255, 0.1); 
     transform: scale(1.02);
-}
+} */
 
 
 .input-word {
-    background-color: transparent;
+    /* background-color: transparent; */
     border: none;
     font-size: 1.1rem;
     font-weight: bold;
-    border-bottom: 2px solid #FF4081;
+    border-bottom: 2px solid #efb059;
     text-align: center;
     color: #333;
     padding: 5px 10px;
@@ -62,14 +62,14 @@ p:hover {
     transition: all 0.3s ease;
 }
 
-.input-word:focus {
+/* .input-word:focus {
     outline: none;
     border-bottom: 2px solid #FF4081;
     box-shadow: 0 0 5px rgba(255, 64, 129, 0.5);
-}
+} */
 
 button {
-    background-color: #FF4081;
+    background-color: #ffaec9;
     color: white;
     font-size: 1.2rem;
     border-radius: 50px;
@@ -83,7 +83,6 @@ button:hover {
     cursor: pointer;
 }
 
-/* Add a soft animation to elements */
 .animate__animated {
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
